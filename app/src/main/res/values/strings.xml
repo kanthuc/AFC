@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Audio Flash Cards</string>
+    <string name="button_new">+</string>
+    <string name="title_activity_audio_sets">Audio Sets</string>
+</resources>
