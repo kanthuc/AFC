@@ -35,7 +35,7 @@
             android:layout_height="70dp"
             android:src="@drawable/ic_add"
             android:background="@drawable/circle"
-            android:id="@+id/imageButton"
+            android:id="@+id/AddNew"
             android:layout_gravity="right|bottom" />
 
 

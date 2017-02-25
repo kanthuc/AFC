@@ -1,5 +1,6 @@
 package com.srikc.audioflashcards;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -7,7 +8,7 @@ import java.util.ArrayList;
  * Created by srikc on 2/17/2017.
  */
 
-public class AudioSet {
+public class AudioSet implements Serializable {
     String title;
     List cardList;
 
@@ -19,11 +20,11 @@ public class AudioSet {
         return title;
     }
 
-    public void setCardList(List cardList) {
+    public void setCardList(List cardList){
         this.cardList = cardList;
     }
 
-    public List getCardList() {
+    public List getCardList(){
         return cardList;
     }
 }
