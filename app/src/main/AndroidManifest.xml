@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartScreen">
+        <activity android:name=".view.StartScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SetScreen"
+            android:name=".view.SetScreen"
             android:label="@string/title_activity_audio_sets"
-            android:parentActivityName=".StartScreen"
+            android:parentActivityName=".view.StartScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.srikc.audioflashcards.StartScreen" />
+                android:value="com.srikc.audioflashcards.view.StartScreen" />
         </activity>
     </application>
 
